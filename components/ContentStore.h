@@ -6,7 +6,7 @@
 #define NDN_BASIC_CONTENTSTORE_H
 
 #include <string>
-#include "../cmake-build-debug/packets/Packet.h"
+#include "../packets/Packet.h"
 #include <list>
 #include <iterator>
 
@@ -14,13 +14,13 @@ namespace ndn {
     class ContentStore {
     private:
         int size;
-        struct frame {
+        struct Frame {
             std::string name;
             Packet framePacket;
             int lastUsed;
         };
 
-        std::list<frame> cache;
+        std::list<Frame> cache;
 
     public:
         Packet search(const std::string& name);

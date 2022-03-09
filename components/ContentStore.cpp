@@ -7,7 +7,7 @@
 namespace ndn {
     Packet ContentStore::search(const std::string &name) {
         Packet __ret_packet;
-        for (std::list<frame>::iterator it = cache.begin(); it != cache.end(); it++) {
+        for (std::list<Frame>::iterator it = cache.begin(); it != cache.end(); it++) {
             if (it->name == name) {
                 __ret_packet = it->framePacket;
                 break;
@@ -15,5 +15,9 @@ namespace ndn {
         }
 
         return __ret_packet;
+    }
+
+    void ContentStore::store(const std::string& name, const Packet& pack) {
+
     }
 };
