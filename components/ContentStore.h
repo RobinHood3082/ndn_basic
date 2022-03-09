@@ -29,7 +29,7 @@ namespace ndn {
                 std::string _ret_str;
                 _ret_str += name; _ret_str += '\n';
                 _ret_str += framePacket.dump(); _ret_str += '\n';
-                _ret_str += lastUsed; _ret_str += '\n';
+                _ret_str += std::to_string(lastUsed); _ret_str += '\n';
 
                 return _ret_str;
             }

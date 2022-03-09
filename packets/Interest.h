@@ -9,7 +9,10 @@
 
 namespace ndn {
     class Interest : public Packet{
+    public:
         std::string desired_name;
+        bool isInterestPacket() override;
+        std::string dump() override;
     };
 };
 
