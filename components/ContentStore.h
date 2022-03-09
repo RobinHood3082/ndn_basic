@@ -6,7 +6,7 @@
 #define NDN_BASIC_CONTENTSTORE_H
 
 #include <string>
-#include "../packets/Packet.h"
+#include "../cmake-build-debug/packets/Packet.h"
 #include <list>
 #include <iterator>
 
