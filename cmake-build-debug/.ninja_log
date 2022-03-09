@@ -1,0 +1,21 @@
+# ninja log v5
+0	1073	6685194731304948	CMakeFiles/ndn_basic.dir/library.cpp.obj	9b2cc9dd2beabc2c
+4	473	6685270524997273	CMakeFiles/ndn_basic.dir/devices/node.cpp.obj	69cdb7a31d4a2d56
+289	389	6685271041463589	libndn_basic.a	ed6b56a3ec601097
+16	333	6685270523596995	CMakeFiles/ndn_basic.dir/packets/packet.cpp.obj	e92e84d07d26c6c4
+5	288	6685271040443893	CMakeFiles/ndn_basic.dir/components/ContentStore.cpp.obj	167e138999c48ee0
+3	355	6685281044304623	CMakeFiles/ndn_basic.dir/packets/Packet.cpp.obj	f69880c5ec140e38
+21	340	6685270523657013	CMakeFiles/ndn_basic.dir/packets/data.cpp.obj	14cac7de63330085
+24	360	6685270523866999	CMakeFiles/ndn_basic.dir/packets/interest.cpp.obj	b55361eb2fa50d8
+1	275	6685281581157963	build.ninja	4431a14ea0841dc9
+1	291	6685281581157963	build.ninja	4431a14ea0841dc9
+4	379	6685281585467986	CMakeFiles/ndn_basic.dir/packets/Interest.cpp.obj	a785b53d1ee68437
+9	387	6685281585697995	CMakeFiles/ndn_basic.dir/packets/Data.cpp.obj	c8a5b587c74cbee6
+18	405	6685282334514752	CMakeFiles/ndn_basic.dir/packets/Interest.cpp.obj	a785b53d1ee68437
+21	414	6685282334624772	CMakeFiles/ndn_basic.dir/packets/Data.cpp.obj	c8a5b587c74cbee6
+3	442	6685282334914751	CMakeFiles/ndn_basic.dir/packets/Packet.cpp.obj	f69880c5ec140e38
+16	376	6685283312702705	CMakeFiles/ndn_basic.dir/components/ContentStore.cpp.obj	167e138999c48ee0
+4	382	6685283427238605	CMakeFiles/ndn_basic.dir/devices/node.cpp.obj	69cdb7a31d4a2d56
+383	464	6685283428068867	libndn_basic.a	4c7c7c69513b83b4
+4	345	6685283754505138	CMakeFiles/ndn_basic.dir/components/ContentStore.cpp.obj	167e138999c48ee0
+345	417	6685283755271309	libndn_basic.a	4c7c7c69513b83b4

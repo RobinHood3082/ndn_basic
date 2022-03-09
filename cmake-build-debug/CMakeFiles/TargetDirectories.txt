@@ -1,0 +1,3 @@
+C:/Users/rkhan/CLionProjects/ndn-basic/cmake-build-debug/CMakeFiles/ndn_basic.dir
+C:/Users/rkhan/CLionProjects/ndn-basic/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/rkhan/CLionProjects/ndn-basic/cmake-build-debug/CMakeFiles/rebuild_cache.dir
