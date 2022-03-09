@@ -13,11 +13,17 @@
 namespace ndn {
     class ContentStore {
     private:
-        int size;
+        int maxSize;
         struct Frame {
             std::string name;
             Packet framePacket;
             int lastUsed;
+
+            Frame(const std::string& name, const Packet& framePacket, const int lastUsed) {
+                this->name = name;
+                this->framePacket = framePacket;
+                this->lastUsed = lastUsed;
+            }
         };
 
         std::list<Frame> cache;
