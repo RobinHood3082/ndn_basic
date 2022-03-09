@@ -41,4 +41,20 @@ namespace ndn {
             cache.push_back(newFrame);
         }
     }
+
+    void ContentStore::setMaxSize(const int &size) {
+        this->maxSize = size;
+    }
+
+    std::string ContentStore::dump() {
+        std::string _ret_str;
+        _ret_str += std::to_string(maxSize); _ret_str += '\n';
+        _ret_str += std::to_string(cache.size()); _ret_str += '\n';
+        for (Frame& _f : cache) {
+            _ret_str += _f.dump();
+            _ret_str += '\n';
+        }
+
+        return _ret_str;
+    }
 };

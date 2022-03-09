@@ -13,6 +13,7 @@ namespace ndn {
         std::string body;
         Packet();
         Packet(const std::string& body);
+        std::string dump();
     };
 }
 
