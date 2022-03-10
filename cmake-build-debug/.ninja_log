@@ -1,12 +1,22 @@
 # ninja log v5
 0	1073	6685194731304948	CMakeFiles/ndn_basic.dir/library.cpp.obj	9b2cc9dd2beabc2c
 16	499	6685323510357791	CMakeFiles/ndn_basic.dir/devices/node.cpp.obj	b0ad2904060a5ae9
-522	591	6685323511307773	libndn_basic.a	4c7c7c69513b83b4
-16	333	6685270523596995	CMakeFiles/ndn_basic.dir/packets/packet.cpp.obj	e92e84d07d26c6c4
 24	522	6685323510587779	CMakeFiles/ndn_basic.dir/components/ContentStore.cpp.obj	578200ffc4ee8ced
+16	333	6685270523596995	CMakeFiles/ndn_basic.dir/packets/packet.cpp.obj	e92e84d07d26c6c4
+522	591	6685323511307773	libndn_basic.a	4c7c7c69513b83b4
+24	360	6685270523866999	CMakeFiles/ndn_basic.dir/packets/interest.cpp.obj	b55361eb2fa50d8
 3	385	6685323509207830	CMakeFiles/ndn_basic.dir/packets/Packet.cpp.obj	d6dd19a4035e65c
 21	340	6685270523657013	CMakeFiles/ndn_basic.dir/packets/data.cpp.obj	14cac7de63330085
-24	360	6685270523866999	CMakeFiles/ndn_basic.dir/packets/interest.cpp.obj	b55361eb2fa50d8
-1	291	6685325991835630	build.ninja	4431a14ea0841dc9
+1	291	6686099854587820	build.ninja	4431a14ea0841dc9
 18	401	6685323509387772	CMakeFiles/ndn_basic.dir/packets/Interest.cpp.obj	e19fe4dbe97e90cb
 21	347	6685323508807812	CMakeFiles/ndn_basic.dir/packets/Data.cpp.obj	c63070a31077b9e9
+7	571	6686099854587820	build.ninja	4431a14ea0841dc9
+5	168	6686099857195094	CMakeFiles/ndn_basic.dir/components/ForwardingInformationBase.cpp.obj	5e250738e35846d2
+8	171	6686099857225117	CMakeFiles/ndn_basic.dir/components/PendingInterestTable.cpp.obj	67df2cac8e15fbed
+3	454	6686099860014463	CMakeFiles/ndn_basic.dir/devices/Node.cpp.obj	5eab6a2b1f20d58b
+10	493	6686099860431986	CMakeFiles/ndn_basic.dir/components/ContentStore.cpp.obj	578200ffc4ee8ced
+493	656	6686099862094513	libndn_basic.a	418d5048246c7f5c
+4	374	6686245133708891	CMakeFiles/ndn_basic.dir/components/PendingInterestTable.cpp.obj	67df2cac8e15fbed
+375	464	6686245134618846	libndn_basic.a	418d5048246c7f5c
+3	542	6686248612749043	CMakeFiles/ndn_basic.dir/components/PendingInterestTable.cpp.obj	67df2cac8e15fbed
+543	625	6686248613579040	libndn_basic.a	418d5048246c7f5c

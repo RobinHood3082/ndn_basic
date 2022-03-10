@@ -10,19 +10,19 @@
 #include "../packets/Packet.h"
 
 namespace ndn {
-    class node {
+    class Node {
     public:
         std::string name;
-        bool operator==(const node& other) const {
+        bool operator==(const Node& other) const {
             return this->name == other.name;
         }
 
-        void receive_packet(Packet *p, node* nd) {}
-        void send_packet(Packet *p, node* nd){}
+        void receive_packet(Packet *p, Node* nd) {}
+        void send_packet(Packet *p, Node* nd){}
 
     private:
 
-        std::vector<ndn::node> adjacent;
+        std::vector<ndn::Node> adjacent;
     };
 };
 
