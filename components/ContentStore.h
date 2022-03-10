@@ -13,7 +13,7 @@
 namespace ndn {
     class ContentStore {
     private:
-        int maxSize;
+        int maxSize = 5; // default CS size
         struct Frame {
             std::string name;
             Packet framePacket;

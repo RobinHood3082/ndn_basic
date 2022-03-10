@@ -22,6 +22,13 @@ namespace ndn {
             _f.lastUsed++;
         }
 
+        for (Frame& _f : cache) {
+            if (_f.name == name) {
+                _f.lastUsed = 0;
+                return;
+            }
+        }
+
         Frame newFrame(name, pack, 0);
         if (this->cache.size() == this->maxSize) {
             // use LRU replacement algorithm
