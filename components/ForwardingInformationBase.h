@@ -7,7 +7,7 @@
 
 namespace ndn {
     class ForwardingInformationBase {
-
+	std::unordered_map <std::string, std::vector <std::string>> fibTable;
     };
 }
 
