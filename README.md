@@ -1,5 +1,6 @@
 # ndn_basic
-A very basic interface for Named Data Network protocol
+A very basic interface for Named Data Network protocol. This is supposed to be a lightweight library that simulates the Named Data Networking protocol.
+
 
 # Installation
 
